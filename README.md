@@ -22,7 +22,7 @@ services:
     restart: always
 
   f2b-restapi:
-    image: f2b-apirest-image:v1
+    image: ghcr.io/mbaum0/f2b-restapi:latest
     container_name: f2b-restapi
     network_mode: "host"
     volumes:
